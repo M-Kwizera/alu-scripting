@@ -1,8 +1,9 @@
 #!/usr/bin/python3
+"""
+Function searches the Reddit API and returns
+the number of subscribers for subreddit supplied.
+"""
 import requests
-""" Requests number 
-of subcribers of a
-subreddit"""
 
 
 def number_of_subscribers(subreddit):
