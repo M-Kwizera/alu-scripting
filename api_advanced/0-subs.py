@@ -3,8 +3,9 @@
 Function searches the Reddit API and returns
 the number of subscribers for subreddit supplied.
 """
+
+
 import requests
-"""Imported reuests"""
 
 
 def number_of_subscribers(subreddit):
