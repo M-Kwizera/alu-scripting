@@ -6,6 +6,7 @@ the number of subscribers for subreddit supplied.
 import requests
 """Imported reuests"""
 
+
 def number_of_subscribers(subreddit):
     url = f"https://www.reddit.com/r/{subreddit}/about.json"
 
@@ -22,6 +23,5 @@ def number_of_subscribers(subreddit):
         return 0
 
 
-call = number_of_subscribers("https://www.reddit.com/r/Home/")
+call = number_of_subscribers("r/chicago")
 print(call)
-
