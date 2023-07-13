@@ -4,7 +4,7 @@ Function searches the Reddit API and returns
 the number of subscribers for subreddit supplied.
 """
 import requests
-
+"""Imported reuests"""
 
 def number_of_subscribers(subreddit):
     url = f"https://www.reddit.com/r/{subreddit}/about.json"
